@@ -1,6 +1,15 @@
-# demo
+# kfw-loading
 
-> A Vue.js project
+> 适用于快房传媒的加载页面
+
+# 使用方法
+1. 拷贝目录 `components/loading` 至项目的 `components`
+2. 在 `main.js` 中引入
+```
+import Loading from './components/loading'
+Vue.use(Loading)
+```
+3. 
 
 ## Build Setup
 
@@ -19,4 +28,3 @@ npm run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-# vue-toast

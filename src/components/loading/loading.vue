@@ -25,7 +25,7 @@
     left: 0;
     right: 0;
     background-color: #fff;
-    background-image: url("../../assets/loading.gif");
+    background-image: url("loading.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70%;

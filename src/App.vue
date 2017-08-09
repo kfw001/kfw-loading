@@ -2,7 +2,7 @@
   <div id="app">
     <p>页面载入前显示无淡入效果的loading</p>
     <p>点击 logo 显示含有淡入过渡的效果</p>
-    <p>使用方法及代码请看：</p>
+    <p>使用方法及代码请看：<a href="https://github.com/kfw001/kfw-loading">kfw-loading</a></p>
     <img src="./assets/logo.png" @click="transitionDemo">
   </div>
 </template>

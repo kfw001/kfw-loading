@@ -3,6 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 
+import Loading from './components/loading'
+Vue.use(Loading)
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

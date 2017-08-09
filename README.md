@@ -4,12 +4,12 @@
 
 # Install
 1. 拷贝目录 `components/loading` 至项目的 `components`
-2. 在 `main.js` 中引入
+2. 在 `main.js` 中使用
 ```
+// 目录请对应自己本地的路径
 import Loading from './components/loading'
 Vue.use(Loading)
 ```
-3. 组件中即可使用
 
 # Usage
 - 开启loading：`this.$kfw.open({hasTransition: true});`（可不传参数，默认无过渡效果）

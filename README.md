@@ -11,7 +11,7 @@ Vue.use(Loading)
 ```
 3. 组件中即可使用
 
-# Use
+# Usage
 - 开启loading：`this.$kfw.open({hasTransition: true});`（可不传参数，默认无过渡效果）
 - 关闭loading：`this.$kfw.close();`
 

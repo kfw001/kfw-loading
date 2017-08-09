@@ -22,7 +22,7 @@ Vue.use(Loading)
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8585
 npm run dev
 
 # build for production with minification

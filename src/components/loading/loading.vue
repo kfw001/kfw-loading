@@ -1,6 +1,7 @@
 <template>
   <transition name="loading">
     <div :class="['kfw-loading', hasTransition ? 'transition' : '']" v-show="visible">
+      <div class="loading-img"></div>
       <p class="kfw-text">页面加载中，请稍候...</p>
     </div>
   </transition>
@@ -19,20 +20,26 @@
 
 <style scoped>
   .kfw-loading {
+    display: flex;
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    justify-content: center;
+    align-items: center;
     background-color: #fff;
-    background-image: url("loading.gif");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70%;
     text-align: center;
   }
   .transition {
     transition: opacity .2s linear;
+  }
+  .loading-img {
+    width: 294px;
+    height: 110px;
+    background-image: url("loading.gif");
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .kfw-text {

@@ -14,21 +14,21 @@
     methods: {
       showLoading() {
         console.log('Page is loading.');
-        this.$kfw.open();
+        this.$kfw.loading.open();
         // 模拟页面加载完毕
         let _this = this;
         setTimeout(function () {
           console.log('Page has loaded.');
-          _this.$kfw.close();
+          _this.$kfw.loading.close();
         }, 2000)
       },
       // 过渡效果demo显示
       transitionDemo() {
-        this.$kfw.open({hasTransition: true});
+        this.$kfw.loading.open({hasTransition: true});
         let _this = this;
         setTimeout(function () {
           console.log('Page has loaded.');
-          _this.$kfw.close();
+          _this.$kfw.loading.close();
         }, 2000)
       }
     },

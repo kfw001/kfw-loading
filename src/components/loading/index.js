@@ -26,7 +26,7 @@ const plugin = {
         $vm.$el.addEventListener('transitionend', removeDom);
       }
     };
-    Vue.prototype.$kfw = loading;
+    Vue.prototype.$kfw = { loading };
   }
 };
 

@@ -2,7 +2,7 @@
 
 > 适用于快房传媒的加载页面
 
-# Install
+## Install
 1. 拷贝目录 `components/loading` 至项目的 `components`
 2. 在 `main.js` 中使用
 ```
@@ -11,7 +11,7 @@ import Loading from './components/loading'
 Vue.use(Loading)
 ```
 
-# Usage
+## Usage
 - 开启loading：`this.$kfw.loading.open({hasTransition: true});`（可不传参数，默认无过渡效果）
 - 关闭loading：`this.$kfw.loading.close();`
 

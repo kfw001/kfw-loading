@@ -1,6 +1,6 @@
 # kfw-loading
 
-> 适用于快房传媒的加载页面
+> 适用于快房传媒 `PC端` 的加载页面
 
 ## Install
 1. 拷贝目录 `components/loading` 至项目的 `components`

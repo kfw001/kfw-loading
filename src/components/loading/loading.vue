@@ -22,30 +22,38 @@
   .kfw-loading {
     display: flex;
     position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 263px;
+    height: 130px;
     justify-content: center;
     align-items: center;
     background-color: #fff;
     text-align: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.17);
+    border-radius: 5px;
+    border: 1px solid #eee;
+    cursor: wait;
   }
+
   .transition {
     transition: opacity .2s linear;
   }
+
   .loading-img {
     width: 294px;
     height: 110px;
     background-image: url("loading.gif");
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: 85%;
+    background-position: 50% 5px;
   }
 
   .kfw-text {
     width: 100%;
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     font-size: 14px;
     color: #2c3e50;
   }

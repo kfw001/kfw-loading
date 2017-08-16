@@ -1,6 +1,8 @@
 # kfw-loading
 
-> 适用于快房传媒的加载页面
+> 适用于快房传媒 `移动端` 的加载页面
+
+> PC端请看 `pc` 分支，预览地址：https://kfw001.github.io/kfw-loading/pc.html
 
 ## Install
 1. 拷贝目录 `components/loading` 至项目的 `components`
